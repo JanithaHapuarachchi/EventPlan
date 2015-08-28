@@ -12,6 +12,25 @@
         controller: 'MainController',
         controllerAs: 'main'
       })
+
+      .when('/testjanitha', {
+        templateUrl: 'app/testjanitha/testjanitha.html',
+        controller: 'TestJanithaController',
+        controllerAs: 'testjanitha',
+        title: 'Home Page',
+        //css:'home.css'
+      })
+
+      .when('/testjh', {
+        templateUrl: 'app/testjh/testjh.html',
+        controller: 'TestjhController',
+      //  controllerAs: 'testjanitha',
+        title: 'Home Page',
+        //css:'home.css'
+      })
+
+
+
       .otherwise({
         redirectTo: '/'
       });
