@@ -3,16 +3,12 @@
 
   angular
     .module('eventPlannerNew')
-      .run(runBlock);
+    .run(runBlock);
 
   /** @ngInject */
   function runBlock($log) {
 
     $log.debug('runBlock end');
   }
-
-
-
-
 
 })();

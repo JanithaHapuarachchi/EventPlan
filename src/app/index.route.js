@@ -11,24 +11,22 @@
         templateUrl: 'app/main/main.html',
         controller: 'MainController',
         controllerAs: 'main'
+
       })
 
       .when('/testjanitha', {
         templateUrl: 'app/testjanitha/testjanitha.html',
         controller: 'TestJanithaController',
-        controllerAs: 'testjanitha',
-        title: 'Home Page',
-        //css:'home.css'
+       // controllerAs: 'main'
       })
 
-      .when('/testjh', {
-        templateUrl: 'app/testjh/testjh.html',
-        controller: 'TestjhController',
-      //  controllerAs: 'testjanitha',
-        title: 'Home Page',
-        //css:'home.css'
+      .when('/login', {
+        templateUrl: 'app/login/login.html',
+        controller: 'LoginController',
+        // controllerAs: 'main'
       })
 
+<<<<<<< HEAD
       .when('/server', {
         templateUrl: 'myapp/app.js',
         //controller: 'TestjhController',
@@ -51,6 +49,12 @@
         //  controllerAs: 'testjanitha',
         //title: 'Home Page',
         //css:'home.css'
+=======
+      .when('/home', {
+        templateUrl: 'app/home/home.html',
+        controller: 'HomeController',
+        // controllerAs: 'main'
+>>>>>>> login and home
       })
 
       .otherwise({
