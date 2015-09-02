@@ -29,7 +29,29 @@
         //css:'home.css'
       })
 
+      .when('/server', {
+        templateUrl: 'myapp/app.js',
+        //controller: 'TestjhController',
+        //  controllerAs: 'testjanitha',
+        //title: 'Home Page',
+        //css:'home.css'
+      })
 
+      .when('/createevent', {
+        templateUrl: 'app/createevent/createevent.html',
+        //controller: 'CreateeventController',
+        //  controllerAs: 'testjanitha',
+        //title: 'Home Page',
+        //css:'home.css'
+      })
+
+      .when('/viewevent', {
+        templateUrl: 'app/viewevent/viewevent.html',
+        //controller: 'VieweventController',
+        //  controllerAs: 'testjanitha',
+        //title: 'Home Page',
+        //css:'home.css'
+      })
 
       .otherwise({
         redirectTo: '/'
