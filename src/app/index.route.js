@@ -26,7 +26,7 @@
         // controllerAs: 'main'
       })
 
-<<<<<<< HEAD
+
       .when('/server', {
         templateUrl: 'myapp/app.js',
         //controller: 'TestjhController',
@@ -49,12 +49,12 @@
         //  controllerAs: 'testjanitha',
         //title: 'Home Page',
         //css:'home.css'
-=======
+      })
       .when('/home', {
         templateUrl: 'app/home/home.html',
         controller: 'HomeController',
         // controllerAs: 'main'
->>>>>>> login and home
+
       })
 
       .otherwise({
